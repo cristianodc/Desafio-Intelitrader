@@ -22,7 +22,7 @@ int  binario_para_descimal(char mens[9]){
 	}
 	
 	
-  /**********REALIZO A CONVERSÃO DE BINARIO PARA DECIMAL*****************/
+  /**********REALIZO O CALCULO  DE BINARIO PARA DECIMAL*****************/
     for(int i=7; i>=0; i--){
         fator_calc = pow(2,sequencia);
         decimal = decimal + (vetor_bin[i]*fator_calc);
